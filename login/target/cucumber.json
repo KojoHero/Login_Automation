@@ -1,0 +1,1035 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5942165200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 614486900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2889569900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216212800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitechgmail.com\" and \"12345678!Aa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitechgmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "12345678!Aa",
+                  "offset": 50
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45938000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8030850500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5187335100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 624536900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2104081300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 206567200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"4syllable@gmail.com\" and \"12345678!Aa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4syllable@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "12345678!Aa",
+                  "offset": 43
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47849500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8030918700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5291813000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 640260900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2807539400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 202932700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech@gmail.com\" and \"12354678!Aa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "12354678!Aa",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47516900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8025016700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5234034500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 617770600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2736322700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203065800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech.gmail.com\" and \"12345678!Aa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech.gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "12345678!Aa",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 41329300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8032641200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5235696100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 633397900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3405392800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198059600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech@gmail.com\" and \"12345678\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "12345678",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47789900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8025668200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5194589800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;7",
+        "after": [
+          {
+            "result": {
+              "duration": 621183800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2721701400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 174879900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech@gmail.com\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47608000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8036727400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"An error occured.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An error occured.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5252004900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;8",
+        "after": [
+          {
+            "result": {
+              "duration": 614676300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2576280900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 134710900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"\" and \"12345678!Aa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 17
+                },
+                {
+                  "val": "12345678!Aa",
+                  "offset": 24
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50602600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8021307000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"An error occured.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An error occured.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5193564600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;9",
+        "after": [
+          {
+            "result": {
+              "duration": 613874000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2078855100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200799200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech@gmail.com\" and \"aaaaaaaaaA\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "aaaaaaaaaA",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36422200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8023880700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5199654000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify Login with valid and invalid credentials",
+        "description": "",
+        "id": "verify-login-with-valid-and-invalid-credentials;verify-login-with-valid-and-invalid-credentials;;10",
+        "after": [
+          {
+            "result": {
+              "duration": 612934000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "login.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2112867800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User visits the community platform login page",
+            "match": {
+              "location": "login.user_visits_the_community_platform_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 196032500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User inputs his \"testing.amalitech@gmail.com\" and \"1234567890\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testing.amalitech@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "1234567890",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_inputs_his_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45789200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User taps on the login button",
+            "match": {
+              "location": "login.user_taps_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8021574100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be informed with a success or failure \"Please check your credentials and try again.\" depending on the credentials used",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please check your credentials and try again.",
+                  "offset": 51
+                }
+              ],
+              "location": "login.user_should_be_informed_with_a_success_or_failure_depending_on_the_credentials_used(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@COMMUNITY-190"
+          },
+          {
+            "line": 4,
+            "name": "@TEST_COMMUNITY-291"
+          }
+        ]
+      }
+    ],
+    "name": "Verify Login with valid and invalid credentials",
+    "description": "",
+    "id": "verify-login-with-valid-and-invalid-credentials",
+    "keyword": "Feature",
+    "uri": "F:/Login/login/src/test/java/Login/login/1_COMMUNITY-291.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@COMMUNITY-190"
+      }
+    ]
+  }
+]
